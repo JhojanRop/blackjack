@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <title>Blackjack</title>
+</head>
+
+<body>
+    <main>
+        <h1>Blackjack</h1>
+        <div class="container">
+            <section class="dealer">
+                <h2>Dealer</h2>
+                <!-- CARTA -->
+                <div class="cards" id="dealerCards">
+                    <img class="card" src="./assets/cards/BACK.png" alt="card">
+                </div>
+            </section>
+            <section class="player">
+                <h2>Jugador</h2>
+                <!-- CARTA -->
+                <div class="cards" id="playerCards">
+                    <!-- <img class="card" src="./assets/cards/BACK.png" alt="card"> -->
+                </div>
+            </section>
+        </div>
+        <div class="buttons">
+            <button class="deal" id="deal">Pedir</button>
+            <button class="stand" id="stand">Plantarse</button>
+            <button class="reset" id="reset">Reiniciar</button>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
